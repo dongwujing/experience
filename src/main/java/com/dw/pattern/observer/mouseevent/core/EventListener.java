@@ -15,7 +15,7 @@ public class EventListener {
         events.put(eventType,new Event(target,callback));
     }
     public void addListener(String eventType, Object target){
-        this.addListener(eventType,eventType,target,target.getClass().getMethod("on"+));
+//        this.addListener(eventType,eventType,target,target.getClass().getMethod("on"));
     }
 
     private void trigger(Event event){
