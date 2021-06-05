@@ -16,4 +16,8 @@ public class Foo {
     }
     methodExit = 3;
   }
+
+  public static void main(String[] args) {
+    Foo foo=new Foo();
+  }
 }
